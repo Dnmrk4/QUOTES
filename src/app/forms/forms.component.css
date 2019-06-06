@@ -1,0 +1,30 @@
+h5 {
+  text-align: center;
+}
+.modal-dialog {
+  background-color: rgb(0, 156, 156);
+}
+#del {
+  color: rgb(255, 0, 0);
+}
+::placeholder {
+  color: rgba(0, 0, 0, 0.548);
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: center;
+}
+#title {
+  text-align: center;
+}
+form {
+  align-items: center;
+}
+input {
+  width: 200px;
+  height: 27px;
+  border-radius: 10px;
+}
+textarea {
+  width: 360px;
+  border-radius: 10px;
+}

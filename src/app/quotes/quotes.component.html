@@ -1,0 +1,7 @@
+
+<app-forms (addQuote)="addNewQuote($event)"></app-forms>
+<div class="row">
+    <div class="col-md-4 quote" *ngFor="let quote of quotes;let i = index">
+      <app-quote-details [quote]="quote"></app-quote-details>
+    </div>
+</div>
